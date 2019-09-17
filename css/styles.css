@@ -1,0 +1,29 @@
+/* https://colorhunt.co/palette/16615?ref=tab
+#ffd460 #a7425c #ea5455 #432f44 */
+body{
+  margin: 0;
+}
+h1 {
+  margin-top: 0;
+  color: #432f44
+}
+
+p {
+  color: #a7425c;
+}
+
+.top-container {
+  background-color: #ffd460;
+}
+
+.mid-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.bot-container {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
