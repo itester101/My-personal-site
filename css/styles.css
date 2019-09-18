@@ -1,29 +1,35 @@
 /* https://colorhunt.co/palette/16615?ref=tab
 #ffd460 #a7425c #ea5455 #432f44 */
 body{
-  margin: 0;
+  text-align: center;
+  background-color: #ea5455;
+  font-family: 'Slabo 27px', serif;
 }
+
 h1 {
   margin-top: 0;
-  color: #432f44
+  color: #432f44;
+  font-family: 'Sacramento', cursive;
 }
 
 p {
-  color: #a7425c;
+  color: #ffd460;
+  font-family: 'Nunito', sans-serif;
 }
 
-.top-container {
-  background-color: #ffd460;
+.top-container{
+  padding-top: 100px;
+  position: relative;
 }
 
-.mid-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.top-cloud{
+  position: absolute;
+  right: 650px;
+  top: 50px;
 }
 
-.bot-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+.bottom-cloud{
+  position: absolute;
+  left: 650px;
+  bottom: 300px;
 }
