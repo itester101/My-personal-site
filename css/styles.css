@@ -6,26 +6,24 @@
 */
 body{
   text-align: center;
-  background-color: #EAF6F6;
+  background-color: black;
   font-family: 'Slabo 27px', serif;
   margin: 0;
-  color: #40514E;
+  color: #32FF32;
 }
 
 h1 {
   margin: 50px auto 0 auto;
-  color: #66BFBF;
-  font-family: 'Sacramento', cursive;
+  color: #445c3c;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 5.625rem;
 }
 
 p {
-  font-family: 'Nunito', sans-serif;
-  line-height: 2;
+  font-family: 'Arial', sans-serif;
 }
 
 h2 {
-  color: #66BFBF;
   font-size: 2.5rem;
   font-weight: normal;
   font-family: 'Nunito', sans-serif;
@@ -33,7 +31,6 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
 }
 
 hr {
@@ -57,12 +54,23 @@ a:hover {
 }
 
 .top-container{
-  padding-top: 100px;
+  padding: 100px 0;
   position: relative;
 }
 
+.itester-img {
+  display: inline;
+}
+
+.itester-tag {
+  display: inline;
+}
+
+.name {
+  width: 40%;
+}
+
 .middle-container {
-  background-color: white;
   padding: 100px 0;
 }
 
@@ -72,7 +80,6 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
   padding: 50px 0;
 }
 
@@ -112,7 +119,7 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
-  font-size: 0.75rem
+  font-size: 0.75rem;
   padding: 20px 0;
 }
 
